@@ -64,4 +64,4 @@ def validateTicker(ticker):
     return ticker.lower() in [t.lower() for t in tickers]
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
