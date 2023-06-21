@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "PT Serif";
+}
+html {
+    height: 100%;
+}
+.content-div {
+    width: 100%;
+    height: fit-content;
+}
+#main-hdr-div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+#sub-hdr {
+    width: 100%;
+    text-align: center;
+    color: rgb(142, 142, 142);
+    letter-spacing: 4px;
+    font-style: italic;
+}
+#main-hdr {
+    width: fit-content;
+    height: fit-content;
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+#compare-div {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#inner-compare {
+    width: fit-content;
+    display: flex;
+}
+.text-input {
+    width: 4em;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: rgb(128, 128, 128);
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+.text-input:focus {
+    border-color: rgb(54, 54, 54);
+}
+#ticker-1 {
+    margin-right: 30px;
+}
+#ticker-2 {
+    margin-left: 30px;
+}
+#bottom-compare {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#compare-btn {
+    border: 1px solid black;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#compare-btn:hover {
+    background-color: black;
+    color: white;
+}
+#info-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#canvas-div {
+    margin-top: 50px;
+    width: 750px;
+}
+#compare-area {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.compare-box {
+    width: 500px;
+}
+.ticker-hdr {
+    width: 100%;
+    text-align: center;
+}
+#footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-p {
+    margin: 0;
+    color: rgb(142, 142, 142);
+}
